@@ -17,3 +17,9 @@ console.log("2" == 2); //true
 console.log("2" != 2); //false
 console.log("2" !== 2); //true
 console.log("2" === 2); //false
+
+let sabit = "Sabit";
+khan = sabit;
+sabit = "khan";
+console.log(khan);
+console.log(sabit);
